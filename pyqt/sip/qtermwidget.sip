@@ -11,7 +11,8 @@
 class QTermWidget : QWidget {
 
 %TypeHeaderCode
-#include <../lib/qtermwidget.h>
+// TODO: check compatibility with SIP 4.x
+#include <qtermwidget.h>
 %End
 
 public:

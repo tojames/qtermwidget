@@ -1,0 +1,8 @@
+[build-system]
+requires = ["sip >=6.0.2, <7", "PyQt-builder >=1.6, <2"]
+build-backend = "sipbuild.api"
+
+[tool.sip.metadata]
+name = "QTermWidget"
+# TODO: avoid manually-updated version string here
+version = "0.16.1"
